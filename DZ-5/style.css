@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #000000;
+	font-family: Unb;
+}
+
+@font-face {
+	font-family: 'Fur';
+	src: url('./fonts/Furore/Furore.otf');
+}
+
+@font-face {
+	font-family: 'Unb';
+	src: url('./fonts/unbounded/TTF/Unbounded-Regular.ttf');
+}
+
+h3 {
+	font-family: Fur, 'Arial';
+	color: #99ff00;
+	letter-spacing: 2px;
+}
+
+#Alpha {
+	background: #020c30;
+	width: 1000px;
+	height: 400px;
+	overflow: auto;
+	border: 2px solid rgb(140, 255, 0);
+	border-radius: 25px 0 0 25px;
+}
+
+.kt {
+	color: #10e79c;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #99ff00;
+	border-radius: 25px;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px 5px 5px 5px;
+	box-shadow: inset 1px 1px 10px #99ff00;
+}
