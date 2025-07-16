@@ -1,0 +1,239 @@
+body {
+	font-family: "Montserrat", Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	background: #181E34;
+	line-height: 150%;
+	color: white;
+}
+
+/* ====================================HEADER====================================== */
+.header {
+	margin: 30px auto 36px;
+
+}
+
+.container {
+	max-width: 930px;
+	margin: auto;
+	height: 100%;
+	padding: 0 15px;
+}
+
+.conatainer-inner {
+	display: flex;
+	align-items: center;
+}
+
+.nav-header {
+	margin-left: auto;
+}
+
+.item-list {
+	display: flex;
+}
+
+.menu {
+	margin-right: 30px;
+}
+
+.header-button {
+	margin-left: 4px;
+	font-weight: 500;
+	color: #2766AE;
+	background: white;
+	padding: 14px 30px;
+	border-radius: 50px;
+}
+
+/* =====================================MAIN======================================== */
+.hero {
+	background: url(../img/mainimg.jpeg) 10% 20% /cover no-repeat;
+	/* background-repeat: no-repeat;
+	background-position: 20% 50%;
+	background-size: cover; */
+	padding: 120px 0;
+
+}
+
+.hero-title {
+	font-weight: 600;
+	text-align: center;
+	font-size: 40px;
+	line-height: 49px;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+.hero-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.paragraph {
+	margin-bottom: 18px;
+}
+
+.hero-text {
+	max-width: 436px;
+}
+
+.hero-text span {
+	color: #01A2CB;
+	font-weight: 600;
+}
+
+.hero-buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	max-width: 320px;
+	width: 100%;
+}
+
+.button-one,
+.button-two {
+	padding: 18px 30px;
+	width: 100%;
+	border-radius: 50px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.button-one {
+	background-image: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+}
+
+.button-two {
+	display: flex;
+	justify-content: center;
+	background-image: linear-gradient(90deg, #00A4CC 0%, #2766AE 100%);
+}
+
+
+.margin-bottom {
+	margin-bottom: 10px;
+}
+
+.img {
+	margin-left: 4px;
+	align-items: center;
+}
+
+/* ============================CARD====================================== */
+.cards {
+	padding: 120px 0;
+}
+
+.cards-title {
+	font-weight: 600;
+	text-align: center;
+	font-size: 40px;
+	line-height: 49px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.cards-text {
+	text-align: center;
+	margin: 0 auto 60px;
+	max-width: 513px;
+}
+
+
+.cards-flex {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2px;
+	flex-wrap: wrap;
+
+}
+
+.cards-flex-item {
+	/*САМИ КАРТОЧКИ*/
+	flex: 0 0 25%;
+	margin-bottom: 28px;
+	padding: 0 14px;
+}
+
+.cards-flex-inner {
+	/*див с заголовком и тестом*/
+	background: #197CB8;
+	padding: 28px 15px;
+	align-items: center;
+	border: 2px solid #176bae;
+	border-radius: 16px;
+	box-shadow: 4px 4px 13px 0 #050d29c2;
+}
+
+.cards-flex-title {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	margin-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.cards-flex-text {
+	justify-self: center;
+	text-align: center;
+	max-width: 144px;
+	/*Внимание, поставил ширину параграфу, это черевато? т.к на видео-уроке так не делали*/
+}
+
+.buttons-cards {
+	display: flex;
+	justify-content: center;
+}
+
+.cards-button {
+	display: block;
+	/*так как тег А это строчный элемент, его надо сделать блочным, что бы применились свойства*/
+	max-width: 436px;
+	background-image: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+	padding: 18px 30px;
+	margin: 0 auto;
+	border-radius: 50px;
+	text-align: center;
+	font-weight: 600;
+}
+
+/*===================================Footer===========================================*/
+.footer {
+	padding: 60px 0;
+	border-top: 1px solid #323952;
+}
+
+.footer-inner {
+	display: flex;
+}
+
+.footer-desc {
+	max-width: 267px;
+	margin-right: auto;
+}
+.footer-desc a {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.footer-col {
+	max-width: 204px;
+	width: 100%;
+	
+}
+.footer-col-margin{
+	margin-right: 28px;
+}
+
+.fotter-col-title {
+	font-weight: 600;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.footer-col-item {
+	margin-bottom: 10px;
+}
