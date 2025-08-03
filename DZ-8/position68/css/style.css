@@ -1,0 +1,42 @@
+.inner{
+	color: rgb(66, 58, 58);
+	background: #000;
+	padding: 1px;
+	min-width: 800px;
+	min-height: 1000px;
+	
+}
+.container {
+	margin-top: 50px;
+	display: flex;
+	justify-content: right;
+	min-height: auto;
+	width: auto;
+	position: static;
+}
+
+
+
+.qudra {
+	background: wheat;
+	width: 50%;
+	height: 100px;
+	padding: 5px;
+	border-radius: 10px;
+	position: fixed;
+	right: 50px;
+	bottom: 100px;
+}
+
+
+.radius {
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 200px;
+	position: relative;
+	bottom: 50%;
+	left: 15%;
+
+
+}

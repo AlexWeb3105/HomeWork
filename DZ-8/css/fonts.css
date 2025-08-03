@@ -1,0 +1,31 @@
+@font-face {
+    font-family:'Cyber';
+    src: local('Cyberpunk Regular'), local('Cyberpunk-Regular'),
+        url('../fonts/Cyberpunk/Cyberpunk-Regular.woff2') format('woff2'),
+        url('../fonts/Cyberpunk/Cyberpunk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family:'Unb';
+    src: local('Unbounded Blond'), local('Unbounded-Blond'),
+        url('../fonts/Unbounded/Unbounded-Blond.woff2') format('woff2'),
+        url('../fonts/Unbounded/Unbounded-Blond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Furore';
+    src: local('Furore'),
+        url('../fonts/Furore/Furore.woff2') format('woff2'),
+        url('../fonts/Furore/Furore.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
