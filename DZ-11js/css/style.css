@@ -1,0 +1,56 @@
+body {
+	background: #12968f;
+}
+
+.button-open {
+	min-width: 200px;
+	min-height: 50px;
+	border: 2px solid #17aacf;
+	font-style: italic;
+	font-size: 20px;
+	background: #1a0e5e;
+	color: #17aacf;
+	margin: 20px 30px;
+	/*cursor: pointer;*/
+}
+
+.modal
+/*подложка для модалки*/
+	{
+	position: fixed;
+	inset: 0;	/* растягивает на весь вью порт(область видимости)*/
+	z-index: 2;
+	
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background: #302231d2;
+}
+
+.modal__window
+/*окно модалки*/
+	{
+	position: relative;
+	width: 60vw;
+	min-height: 20%;
+	padding: 30px;
+	font-size: 30px;
+	background: #4445a0;
+	color: #17aacf;
+}
+
+.modal__close-button
+/*кнопка закрытие модалки*/
+	{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 50px;
+	height: 20px;
+	font-size: 10px;
+	background: #17aacf;
+	color: black;
+}
+.modal__closed {
+	display: flex;
+}
