@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/fonts.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Wake & Bake</title>
+</head>
+
+<body class="body ">
+	<!--!обертка WRAPPER требуется для подложки для всего сайта, на всякий случай-->
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<!--!здесь был див, но препод не делал его.<div class="header__logo">-->
+					<a class="header__logo" href="#">
+						<img src="./icons/header/logo-header1.svg" alt="" class="logo">
+					</a>
+					<nav class="header__nav">
+						<ul class="nav__menu">
+							<li class="nav__item">
+								<a class="nav__link" href="#">
+									Программа обучения
+								</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="#">
+									Галерея
+								</a>
+							<li class="nav__item">
+								<a class="nav__link" href="#">
+									Отзывы
+								</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="#">
+									Контакты
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<a class="burger-top" href="#">
+						<span></span>
+					</a>
+				</div>
+				<div class="header__hero">
+					<div class="hero__inner">
+						<div class="hero__content">
+							<div class="hero__text">
+								<div class="text__course-start">
+									<sup class="course-start">
+										<span>
+											Старт
+										</span>
+										<img src="./icons/header/hero-text.svg" alt="">
+										26.06.2025
+									</sup>
+								</div>
+								<h1 class="hero__title">
+									Научись печь торты и десерты с нуля
+								</h1>
+								<div class="hero__accent">За 8 практических занятий ты получишь новые возможности для самореализации и
+									любимое дело.
+								</div>
+								<div class="img__play-content img__play-content--mobile">
+								<div class="play-content--circle">
+									<a class="play-content--link" data-fslightbox href="./video/cake.mov">
+										<img class="hero__img--play" src="./icons/header/Play4.svg" alt="кнопка запуска">
+									</a>
+								</div>
+								<span class="play-content__text">
+									Посмотри, как готовятся наши торты
+								</span>
+							</div>
+								<div class="button button__hero">
+									<a href="#">Записаться на курс</a>
+								</div>
+							</div>
+						</div>
+						<div class="hero__img">
+							<img src="./img/woomen-hero.png" alt="">
+							<div class="img__play-content">
+								<div class="play-content--circle">
+									<a class="play-content--link" data-fslightbox href="./video/cake.mov">
+										<img class="hero__img--play" src="./icons/header/Play4.svg" alt="кнопка запуска">
+									</a>
+								</div>
+								<span class="play-content__text">
+									Посмотри, как готовятся наши торты
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- !ОШИБКА, задал фон хедера через див. Требуется задать BG через CSS-->
+			<!--<div class="header__bg">
+				<img class="img-bg" src="./img/Hero.png" alt="">
+			</div>-->
+		</header>
+
+
+		<main class="main"></main>
+		<footer class="footer"></footer>
+
+	</div>
+
+	<script src="./js/fslightbox.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
