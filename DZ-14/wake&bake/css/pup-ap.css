@@ -1,0 +1,140 @@
+/*===============================модалка в мейне======================*/
+/*!вся модалка */
+.pup-ap {
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.6s
+}
+
+/*! закрытие модалки*/
+.pup-ap__closed {
+
+	overflow: hidden;
+	visibility: visible;
+	opacity: 1;
+	transition: var(--transition)
+}
+
+.pup-ap__overlay {
+	display: flex;
+	position: fixed;
+	inset: 0;
+	z-index: 2;
+	justify-content: center;
+	align-items: center;
+	background: #000000a1;
+
+}
+
+/*!   окно модалки  */
+.pup-ap__window {
+	position: relative;
+	max-width: 428px;
+	max-height: 491px;
+	padding: 133px 60px 60px;
+	display: flex;
+	flex-direction: column;
+	background: var(--general-bg);
+	border-radius: 20px;
+}
+
+.pup-ap__window>img {
+	position: absolute;
+	top: -65px;
+	left: 72px;
+
+}
+
+.pup-ap__logo {}
+
+/*!  крестик для закрытия окна */
+.btn-close {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+
+}
+
+
+.btn-close:hover rect,
+.btn-close:hover path {
+	transition: stroke 0.4s ease;
+	stroke: var(--accent-color);
+}
+
+
+.pup-ap__title {
+	font-family: 'Gabriola';
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 0.9;
+	color: var(--accent-text);
+	margin-bottom: 10px;
+}
+
+.pup-ap__text {
+	margin-bottom: 30px;
+}
+
+.pup-ap__email {
+	width: 100%;
+	display: block;
+	/*!ошибка*/
+	/*max-width: 308px;
+	max-height: 62px;*/
+	padding: 19px 42px 19px 28px;
+	border: 1px solid #AC907A;
+	border-radius: 100px;
+	margin-bottom: 10px;
+	line-height: 1.5;
+	font-size: 16px;
+	transition: var(--transition);
+
+}
+
+.pup-ap__text-label {
+	position: relative;
+}
+
+.pup-ap__text-label span {
+	position: absolute;
+	top: 12px;
+	left: 28px;
+	color: #AC907A;
+	font-family: Montserrat;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	opacity: 0;
+	visibility: hidden;
+
+}
+
+.pup-ap__email:focus {
+	padding: 26px 42px 12px 28px;
+	transition: var(--transition);
+}
+
+.pup-ap__email:focus+span {
+	opacity: 1;
+	visibility: visible;
+	transition: var(--transition);
+}
+
+.pup-ap__email:hover {
+	border-color: var(--accent-color);
+	transition: var(--transition);
+}
+
+.pup-ap__email:hover::placeholder {
+	color: var(--accent-color);
+	transition: var(--transition)
+}
+
+
+.button__pup-ap {
+	max-width: 308px;
+	max-height: 62px;
+}

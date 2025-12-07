@@ -1,0 +1,91 @@
+/*==========================ФУТЕР 50% сам (верстку сам)=================================*/
+.footer {
+	
+	background: #AB8261;
+	padding: 30px 0 60px;
+}
+
+.footer__inner {
+	/*max-height: 253px;*/
+	/*! Смотреть при адаптиве */
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	color: var(--general-bg);
+	line-height: 1.5;
+	column-gap: 16px;
+}
+
+.footer__about-company {
+	margin-top: 5px;
+}
+
+.about-company__social {
+	margin-top: 20px;
+}
+
+.footer__nav,
+.footer__adress,
+.tel {
+	padding-top: 30px;
+
+}
+
+.footer__nav {
+	grid-column: -4/-3;
+	grid-row: 1/3;
+	;
+}
+
+.nav__list :nth-child(2) {
+	margin-block: 10px;
+}
+
+.adress__list li {
+	padding-bottom: 10px;
+}
+
+.adress__list li>img {
+	margin-right: 8px;
+}
+
+.adress__list :first-child {
+	line-height: 1.6;
+}
+
+.tel {
+	text-align: right;
+	padding-bottom: 47px;
+
+}
+
+.tel a {
+	line-height: 1.6;
+	font-weight: 500;
+	font-size: 25px;
+	transition: var(--transition);
+}
+
+.tel a:hover {
+	color: var(--accent-color);
+}
+
+.copyright {
+	grid-column: -2/-1;
+	color: #DEC5B1;
+	text-align: right;
+	font-size: 16px;
+	line-height: 1.5;
+	/*margin-top: 47px;*/
+}
+
+.about-company__social :nth-child(2) {
+	margin-inline: 15px;
+}
+
+.social__link path {
+	transition: var(--transition)
+}
+
+.social__link :hover path {
+	fill: var(--accent-color);
+}

@@ -1,0 +1,85 @@
+/*==========================Глобальные настройки проекта================================*/
+
+:root {
+	/* цвет основного шрифта*/
+	--general-text: #312C27;
+
+	/* Заголовки цвет шрифта*/
+	--accent-text: #1F1711;
+
+	/* основной цвет фона сайта*/
+	--general-bg: #FFF9F4;
+
+	/* акцентынй фон, таких как фон хедера и футера*/
+	--accent-bg: #FFE0CB;
+
+	/* фон кнопок и ползунков*/
+	--accent-color: #FFA55C;
+
+	/* запуск ховер эфекта */
+	--transition: all .4s ease;
+}
+
+body {
+	font-family: "Montserrat", "Arial", sans-serif;
+	line-height: 1.5;
+	font-weight: normal;
+	color: var(--general-text);
+	background: var(--general-bg);
+}
+
+.body--opened-menu {
+	overflow: hidden;
+}
+
+.wrapper {
+	min-height: 100%;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	max-width: 1279px;
+	margin: 0 auto;
+	padding: 0 15px;
+	height: 100%;
+
+}
+
+.main {
+	flex-grow: 1;
+}
+
+section {
+	margin-top: 140px;
+}
+
+
+.button {
+	max-width: 308px;
+	max-height: 62px;
+
+	padding: 18px 36px;
+	background: var(--accent-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 60px;
+
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.6;
+	transition: var(--transition);
+}
+
+.button:hover {
+	background: #FF9138;
+	
+}
+
+/*.header,
+.footer {
+	display: none;
+}*/
